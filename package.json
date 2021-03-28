@@ -1,0 +1,29 @@
+{
+    "name": "EOSicons",
+    "displayName": "EOSicons",
+    "description": "EOS icons extension",
+    "version": "0.1.1",
+    "icon": "Untitled.png",
+    "engines": {
+        "vscode": "^1.54.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
